@@ -1,0 +1,14 @@
+{
+  "item.themagicalmod.ancient_magical_wood": "Ancient Magical Wood Fragment",
+  "item.themagicalmod.dark_magical_wood": "Dark Magical Wood Fragment",
+  "item.themagicalmod.magical_wood": "Magical Wood Fragment",
+  "item.themagicalmod.amethyst": "Amethyst",
+  "item.themagicalmod.raw_amethyst": "Raw Amethyst",
+
+  "block.themagicalmod.magical_wood_block": "Magical Fragment Block",
+  "block.themagicalmod.amethyst_ore": "Amethyst Ore",
+  "block.themagicalmod.deepslate_amethyst_ore": "Deepslate Amethyst Ore",
+
+  "itemgroup.themagicalmod": "The Magical Mod"
+
+}
