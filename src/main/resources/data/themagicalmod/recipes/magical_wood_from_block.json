@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "themagicalmod:magical_wood_block"
+    }
+  ],
+  "result": {
+    "item": "themagicalmod:magical_wood",
+    "count": 9
+  }
+}
