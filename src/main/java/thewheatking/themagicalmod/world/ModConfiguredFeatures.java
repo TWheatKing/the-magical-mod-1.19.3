@@ -17,25 +17,16 @@ import thewheatking.themagicalmod.TheMagicalMod;
 import thewheatking.themagicalmod.block.ModBlocks;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?, ?>> MAGICAL_WOOD_KEY = registerKey("magical_wood");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> MAGICAL_WOOD_KEY = registerKey("magical");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
-
-
         register(context, MAGICAL_WOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.MAGICAL_WOOD_LOG),
                 new StraightTrunkPlacer(5, 6, 3),
                 BlockStateProvider.of(ModBlocks.MAGICAL_WOOD_LEAVES),
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
-                new TwoLayersFeatureSize(1, 1, 2)).build());
+                new TwoLayersFeatureSize(1, 0, 2)).build());
     }
-
-
-
-
-
-
-
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(TheMagicalMod.MOD_ID, name));

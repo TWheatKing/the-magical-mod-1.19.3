@@ -7,6 +7,7 @@ import net.minecraft.registry.RegistryKeys;
 import thewheatking.themagicalmod.data.ModLootTableGenerator;
 import thewheatking.themagicalmod.data.ModModelProvider;
 import thewheatking.themagicalmod.data.ModRecipeGenerator;
+import thewheatking.themagicalmod.data.ModWorldGenerator;
 import thewheatking.themagicalmod.world.ModConfiguredFeatures;
 
 public class TheMagicalModDataGenerator implements DataGeneratorEntrypoint {
@@ -17,7 +18,7 @@ public class TheMagicalModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableGenerator::new);
 		pack.addProvider(ModRecipeGenerator::new);
 		pack.addProvider(ModModelProvider::new);
-		pack.addProvider(ModRecipeGenerator::new);
+		pack.addProvider(ModWorldGenerator::new);
 	}
 
 	@Override
