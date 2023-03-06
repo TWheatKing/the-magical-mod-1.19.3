@@ -33,10 +33,6 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerBlasting(exporter, List.of(ModBlocks.DEEPSLATE_AMETHYST_ORE), RecipeCategory.MISC, Items.AMETHYST_BLOCK,
                 1f, 100, "amethyst");
 
-
-
-
-
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.MAGICAL_WOOD, RecipeCategory.DECORATIONS,
                 ModBlocks.MAGICAL_WOOD_BLOCK);
 

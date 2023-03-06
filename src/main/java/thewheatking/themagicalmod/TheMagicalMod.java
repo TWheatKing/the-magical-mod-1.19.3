@@ -2,11 +2,10 @@ package thewheatking.themagicalmod;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import thewheatking.themagicalmod.block.ModBlocks;
-import thewheatking.themagicalmod.block.ModFlammableBlockRegistery;
+import thewheatking.themagicalmod.block.ModFlammableBlockRegistry;
 import thewheatking.themagicalmod.block.ModStrippableBlockRegistry;
 import thewheatking.themagicalmod.item.ModItemGroup;
 import thewheatking.themagicalmod.item.ModItems;
@@ -21,7 +20,7 @@ public class TheMagicalMod implements ModInitializer {
 			ModItems.registerModItems();
 			ModBlocks.registerModBlocks();
 
-			ModFlammableBlockRegistery.registerFlammableBlocks();
+			ModFlammableBlockRegistry.registerFlammableBlocks();
 			ModStrippableBlockRegistry.registerStrippableBlocks();
 		}
 	}

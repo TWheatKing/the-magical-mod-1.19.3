@@ -2,7 +2,7 @@ package thewheatking.themagicalmod.block;
 
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 
-public class ModFlammableBlockRegistery {
+public class ModFlammableBlockRegistry {
     public static void registerFlammableBlocks() {
         FlammableBlockRegistry registry = FlammableBlockRegistry.getDefaultInstance();
         registry.add(ModBlocks.MAGICAL_WOOD_LOG, 5, 5);
