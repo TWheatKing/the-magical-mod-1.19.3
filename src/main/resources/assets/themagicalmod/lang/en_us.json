@@ -9,6 +9,14 @@
   "block.themagicalmod.amethyst_ore": "Amethyst Ore",
   "block.themagicalmod.deepslate_amethyst_ore": "Deepslate Amethyst Ore",
 
+  "block.themagicalmod.magical_wood_leaves": "Magical Wood Leaves",
+  "block.themagicalmod.magical_wood_log": "Magical Wood Log",
+  "block.themagicalmod.magical_wood_planks": "Magical Wood Planks",
+  "block.themagicalmod.magical_wood_sapling": "Magical Tree Sapling",
+  "block.themagicalmod.magical_wood_wood": "Magical Wood",
+  "block.themagicalmod.stripped_magical_wood_log": "Stripped Magical Wood Log",
+  "block.themagicalmod.stripped_magical_wood_wood": "Stripped Magical Wood",
+
   "itemgroup.themagicalmod": "The Magical Mod"
 
 }

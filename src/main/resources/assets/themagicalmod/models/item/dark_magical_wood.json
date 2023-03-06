@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "themagicalmod:item/dark_magical_wood"
-  }
-}
