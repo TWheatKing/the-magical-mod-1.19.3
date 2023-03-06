@@ -9,6 +9,7 @@ import thewheatking.themagicalmod.block.ModFlammableBlockRegistry;
 import thewheatking.themagicalmod.block.ModStrippableBlockRegistry;
 import thewheatking.themagicalmod.item.ModItemGroup;
 import thewheatking.themagicalmod.item.ModItems;
+import thewheatking.themagicalmod.world.gen.ModWorldGeneration;
 
 public class TheMagicalMod implements ModInitializer {
 		public static final String MOD_ID = "themagicalmod";
@@ -19,6 +20,8 @@ public class TheMagicalMod implements ModInitializer {
 			ModItemGroup.registerItemGroups();
 			ModItems.registerModItems();
 			ModBlocks.registerModBlocks();
+
+			ModWorldGeneration.generateModWorldGen();
 
 			ModFlammableBlockRegistry.registerFlammableBlocks();
 			ModStrippableBlockRegistry.registerStrippableBlocks();

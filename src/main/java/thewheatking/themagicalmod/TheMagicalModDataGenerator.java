@@ -9,6 +9,7 @@ import thewheatking.themagicalmod.data.ModModelProvider;
 import thewheatking.themagicalmod.data.ModRecipeGenerator;
 import thewheatking.themagicalmod.data.ModWorldGenerator;
 import thewheatking.themagicalmod.world.ModConfiguredFeatures;
+import thewheatking.themagicalmod.world.ModPlacedFeatures;
 
 public class TheMagicalModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -24,5 +25,6 @@ public class TheMagicalModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 	}
 }

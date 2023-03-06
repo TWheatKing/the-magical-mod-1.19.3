@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "themagicalmod:magical_wood_log",
+    "themagicalmod:magical_wood_wood",
+    "themagicalmod:stripped_magical_wood_log",
+    "themagicalmod:stripped_magical_wood_wood"
+  ]
+}

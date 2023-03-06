@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "amethyst",
+  "ingredient": {
+    "item": "themagicalmod:deepslate_amethyst_ore"
+  },
+  "result": "minecraft:amethyst_block"
+}

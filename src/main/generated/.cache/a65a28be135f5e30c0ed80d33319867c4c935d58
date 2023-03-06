@@ -1,8 +1,8 @@
-// 1.19.3	2023-03-06T17:20:03.6193811	The Magical Mod/Model Definitions
+// 1.19.3	2023-03-06T22:25:11.8264133	The Magical Mod/Model Definitions
 2f71054d41ff25648d0f2a55899251159f0b469a assets\themagicalmod\models\item\stripped_magical_wood_log.json
 9bef182fa25d7a01a1d0c43989c81770136f53f6 assets\themagicalmod\models\item\magical_wood_wood.json
-24a5177f35ee208d2fa06b4b94ca26e4de4636bd assets\themagicalmod\models\block\magical_wood_wood.json
 df2686f92053f78df46c6920bfc63ac2251866de assets\themagicalmod\blockstates\amethyst_ore.json
+24a5177f35ee208d2fa06b4b94ca26e4de4636bd assets\themagicalmod\models\block\magical_wood_wood.json
 dda18de5fec9bbfeba8498ae16cca42314483552 assets\themagicalmod\models\item\magical_wood_leaves.json
 4f9a9cad596f008d0e755e193e6805eb8b06e173 assets\themagicalmod\models\item\dark_magical_wood.json
 64ee5e2838c2fbbbeaa3154cdb38d7245d515788 assets\themagicalmod\models\item\magical_wood_planks.json
@@ -33,6 +33,6 @@ bc958ed727678a81385fda23571ecc0f67ae0912 assets\themagicalmod\models\item\magica
 a1f14a3956bf0f1219a5b0f17b9695b5058e8848 assets\themagicalmod\blockstates\magical_wood_planks.json
 5b3b9e9fd3062371646297688c7f26861d95c8d1 assets\themagicalmod\models\item\deepslate_amethyst_ore.json
 5f1ed12dc434adc52d02e5806e09276c8b39d107 assets\themagicalmod\models\item\amethyst_ore.json
-a91e5b6c935696e01b1b27986897a12f8dfa1feb assets\themagicalmod\models\block\magical_wood_sapling.json
 6e73463d6f59d6096702cce3fdae360be7a10f1d assets\themagicalmod\models\item\magical_wood_log.json
+a91e5b6c935696e01b1b27986897a12f8dfa1feb assets\themagicalmod\models\block\magical_wood_sapling.json
 1a4d827603c5abf3d95a7160a769c0b72c15ae30 assets\themagicalmod\blockstates\magical_wood_log.json
