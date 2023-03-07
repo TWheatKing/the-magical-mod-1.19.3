@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "themagicalmod:block/stripped_ancient_magical_wood_log",
+    "side": "themagicalmod:block/stripped_ancient_magical_wood_log"
+  }
+}

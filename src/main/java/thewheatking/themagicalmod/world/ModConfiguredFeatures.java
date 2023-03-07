@@ -17,13 +17,27 @@ import thewheatking.themagicalmod.TheMagicalMod;
 import thewheatking.themagicalmod.block.ModBlocks;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?, ?>> MAGICAL_WOOD_KEY = registerKey("magical");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> MAGICAL_WOOD_KEY = registerKey("magical_wood_tree");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ANCIENT_MAGICAL_WOOD_KEY = registerKey("ancient_magical_wood_tree");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> DARK_MAGICAL_WOOD_KEY = registerKey("dark_magical_wood_tree");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, MAGICAL_WOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.MAGICAL_WOOD_LOG),
                 new StraightTrunkPlacer(5, 6, 3),
                 BlockStateProvider.of(ModBlocks.MAGICAL_WOOD_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+        register(context, ANCIENT_MAGICAL_WOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.ANCIENT_MAGICAL_WOOD_LOG),
+                new StraightTrunkPlacer(5, 6, 3),
+                BlockStateProvider.of(ModBlocks.ANCIENT_MAGICAL_WOOD_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+        register(context, DARK_MAGICAL_WOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.DARK_MAGICAL_WOOD_LOG),
+                new StraightTrunkPlacer(5, 6, 3),
+                BlockStateProvider.of(ModBlocks.DARK_MAGICAL_WOOD_LEAVES),
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
                 new TwoLayersFeatureSize(1, 0, 2)).build());
     }

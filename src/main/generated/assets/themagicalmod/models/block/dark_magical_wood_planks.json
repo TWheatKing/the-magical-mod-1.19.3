@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "themagicalmod:block/dark_magical_wood_planks"
+  }
+}

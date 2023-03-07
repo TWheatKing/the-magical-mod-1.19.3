@@ -17,6 +17,22 @@
   "block.themagicalmod.stripped_magical_wood_log": "Stripped Magical Wood Log",
   "block.themagicalmod.stripped_magical_wood_wood": "Stripped Magical Wood",
 
+  "block.themagicalmod.ancient_magical_wood_leaves": "Ancient Magical Wood Leaves",
+  "block.themagicalmod.ancient_magical_wood_log": "Ancient Magical Wood Log",
+  "block.themagicalmod.ancient_magical_wood_planks": "Ancient Magical Wood Planks",
+  "block.themagicalmod.ancient_magical_wood_sapling": "Ancient Magical Tree Sapling",
+  "block.themagicalmod.ancient_magical_wood_wood": "Ancient Magical Wood",
+  "block.themagicalmod.stripped_ancient_magical_wood_log": "Stripped Ancient Magical Wood Log",
+  "block.themagicalmod.stripped_ancient_magical_wood_wood": "Stripped Ancient Magical Wood",
+
+  "block.themagicalmod.dark_magical_wood_leaves": "Dark Magical Wood Leaves",
+  "block.themagicalmod.dark_magical_wood_log": "Dark Magical Wood Log",
+  "block.themagicalmod.dark_magical_wood_planks": "Dark Magical Wood Planks",
+  "block.themagicalmod.dark_magical_wood_sapling": "Dark Magical Tree Sapling",
+  "block.themagicalmod.dark_magical_wood_wood": "Dark Magical Wood",
+  "block.themagicalmod.stripped_dark_magical_wood_log": "Stripped Dark Magical Wood Log",
+  "block.themagicalmod.stripped_dark_magical_wood_wood": "Stripped Dark Magical Wood",
+
   "itemgroup.themagicalmod": "The Magical Mod"
 
 }

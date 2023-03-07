@@ -26,6 +26,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAGICAL_WOOD_LEAVES);
 
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.MAGICAL_WOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerLog(ModBlocks.ANCIENT_MAGICAL_WOOD_LOG).log(ModBlocks.ANCIENT_MAGICAL_WOOD_LOG).wood(ModBlocks.ANCIENT_MAGICAL_WOOD_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ANCIENT_MAGICAL_WOOD_LOG).log(ModBlocks.STRIPPED_ANCIENT_MAGICAL_WOOD_LOG).wood(ModBlocks.STRIPPED_ANCIENT_MAGICAL_WOOD_WOOD);
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ANCIENT_MAGICAL_WOOD_PLANKS);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ANCIENT_MAGICAL_WOOD_LEAVES);
+
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.ANCIENT_MAGICAL_WOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerLog(ModBlocks.DARK_MAGICAL_WOOD_LOG).log(ModBlocks.DARK_MAGICAL_WOOD_LOG).wood(ModBlocks.DARK_MAGICAL_WOOD_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_DARK_MAGICAL_WOOD_LOG).log(ModBlocks.STRIPPED_DARK_MAGICAL_WOOD_LOG).wood(ModBlocks.STRIPPED_DARK_MAGICAL_WOOD_WOOD);
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_MAGICAL_WOOD_PLANKS);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_MAGICAL_WOOD_LEAVES);
+
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.DARK_MAGICAL_WOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override

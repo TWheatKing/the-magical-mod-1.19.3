@@ -13,12 +13,18 @@ import thewheatking.themagicalmod.block.ModBlocks;
 import java.util.List;
 
 public class ModPlacedFeatures {
-    public static final RegistryKey<PlacedFeature> MAGICAL_WOOD_PLACED_KEY = registerKey("magical");
+    public static final RegistryKey<PlacedFeature> MAGICAL_WOOD_PLACED_KEY = registerKey("magical_wood_tree");
+    public static final RegistryKey<PlacedFeature> ANCIENT_MAGICAL_WOOD_PLACED_KEY = registerKey("ancient_magical_wood_tree");
+    public static final RegistryKey<PlacedFeature> DARK_MAGICAL_WOOD_PLACED_KEY = registerKey("dark_magical_wood_tree");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, MAGICAL_WOOD_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.MAGICAL_WOOD_KEY),
+                VegetationPlacedFeatures.modifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1, 0.1f, 2), ModBlocks.MAGICAL_WOOD_SAPLING));
+        register(context, ANCIENT_MAGICAL_WOOD_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ANCIENT_MAGICAL_WOOD_KEY),
+                VegetationPlacedFeatures.modifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1, 0.1f, 2), ModBlocks.MAGICAL_WOOD_SAPLING));
+        register(context, DARK_MAGICAL_WOOD_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DARK_MAGICAL_WOOD_KEY),
                 VegetationPlacedFeatures.modifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1, 0.1f, 2), ModBlocks.MAGICAL_WOOD_SAPLING));
     }
 

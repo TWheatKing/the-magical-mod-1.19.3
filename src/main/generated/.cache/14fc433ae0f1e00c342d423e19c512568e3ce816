@@ -1,3 +1,7 @@
-// 1.19.3	2023-03-06T22:25:11.8279144	The Magical Mod/themagicalmod
-17ba0bd8bfbf1487ea18aaf787fd84336be57752 data\themagicalmod\worldgen\placed_feature\magical.json
-868cc1e53f718fc7ac23992ee700001bf5e971e5 data\themagicalmod\worldgen\configured_feature\magical.json
+// 1.19.3	2023-03-07T12:00:23.5133148	The Magical Mod/themagicalmod
+d8aa0d646fa3cf6fce01ed5d758cdf2a110cca22 data\themagicalmod\worldgen\placed_feature\magical_wood_tree.json
+cdfa4021b380ff8113edd456b6fc8be8e70326f1 data\themagicalmod\worldgen\placed_feature\dark_magical_wood_tree.json
+71e8a64295604c9c10f2762613a541d0f1f05e68 data\themagicalmod\worldgen\configured_feature\dark_magical_wood_tree.json
+cb154f29fa1c804ddcabf4a241a02a7a38d51f07 data\themagicalmod\worldgen\configured_feature\ancient_magical_wood_tree.json
+3404b13bfa3a2ad663e26855a8a91ade8c3829bc data\themagicalmod\worldgen\placed_feature\ancient_magical_wood_tree.json
+868cc1e53f718fc7ac23992ee700001bf5e971e5 data\themagicalmod\worldgen\configured_feature\magical_wood_tree.json
