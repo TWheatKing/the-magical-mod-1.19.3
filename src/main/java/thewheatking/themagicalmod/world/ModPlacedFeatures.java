@@ -23,9 +23,9 @@ public class ModPlacedFeatures {
         register(context, MAGICAL_WOOD_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.MAGICAL_WOOD_KEY),
                 VegetationPlacedFeatures.modifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1, 0.1f, 2), ModBlocks.MAGICAL_WOOD_SAPLING));
         register(context, ANCIENT_MAGICAL_WOOD_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ANCIENT_MAGICAL_WOOD_KEY),
-                VegetationPlacedFeatures.modifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1, 0.1f, 2), ModBlocks.MAGICAL_WOOD_SAPLING));
+                VegetationPlacedFeatures.modifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1, 0.1f, 2), ModBlocks.ANCIENT_MAGICAL_WOOD_SAPLING));
         register(context, DARK_MAGICAL_WOOD_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DARK_MAGICAL_WOOD_KEY),
-                VegetationPlacedFeatures.modifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1, 0.1f, 2), ModBlocks.MAGICAL_WOOD_SAPLING));
+                VegetationPlacedFeatures.modifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1, 0.1f, 2), ModBlocks.DARK_MAGICAL_WOOD_SAPLING));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
