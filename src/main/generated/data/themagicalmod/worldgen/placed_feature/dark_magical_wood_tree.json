@@ -36,7 +36,7 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "themagicalmod:magical_wood_sapling",
+          "Name": "themagicalmod:dark_magical_wood_sapling",
           "Properties": {
             "stage": "0"
           }
