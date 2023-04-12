@@ -18,6 +18,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.AMETHYST_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DEEPSLATE_AMETHYST_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAGICAL_WOOD_BLOCK);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ANCIENT_MAGICAL_WOOD_BLOCK);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_MAGICAL_WOOD_BLOCK);
 
         blockStateModelGenerator.registerLog(ModBlocks.MAGICAL_WOOD_LOG).log(ModBlocks.MAGICAL_WOOD_LOG).wood(ModBlocks.MAGICAL_WOOD_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_MAGICAL_WOOD_LOG).log(ModBlocks.STRIPPED_MAGICAL_WOOD_LOG).wood(ModBlocks.STRIPPED_MAGICAL_WOOD_WOOD);

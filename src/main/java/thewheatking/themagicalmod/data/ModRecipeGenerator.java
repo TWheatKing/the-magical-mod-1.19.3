@@ -33,8 +33,30 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerBlasting(exporter, List.of(ModBlocks.DEEPSLATE_AMETHYST_ORE), RecipeCategory.MISC, Items.AMETHYST_BLOCK,
                 1f, 100, "amethyst");
 
+        offerSmelting(exporter, List.of(ModBlocks.MAGICAL_WOOD_LOG), RecipeCategory.MISC, Items.CHARCOAL,
+                1f, 200, "magic");
+        offerBlasting(exporter, List.of(ModBlocks.MAGICAL_WOOD_LOG), RecipeCategory.MISC, Items.COAL,
+                1f, 100, "magic");
+
+        offerSmelting(exporter, List.of(ModBlocks.ANCIENT_MAGICAL_WOOD_LOG), RecipeCategory.MISC, Items.COAL,
+                1f, 200, "ancient_magic");
+        offerBlasting(exporter, List.of(ModBlocks.ANCIENT_MAGICAL_WOOD_LOG), RecipeCategory.MISC, Items.COAL_BLOCK,
+                1f, 100, "ancient_magic");
+
+        offerSmelting(exporter, List.of(ModBlocks.DARK_MAGICAL_WOOD_LOG), RecipeCategory.MISC, Items.FERMENTED_SPIDER_EYE,
+                1f, 200, "dark_magic");
+        offerBlasting(exporter, List.of(ModBlocks.DARK_MAGICAL_WOOD_LOG), RecipeCategory.MISC, Items.SPIDER_SPAWN_EGG,
+                1f, 100, "dark_magic");
+
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.MAGICAL_WOOD, RecipeCategory.DECORATIONS,
                 ModBlocks.MAGICAL_WOOD_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ANCIENT_MAGICAL_WOOD, RecipeCategory.DECORATIONS,
+                ModBlocks.ANCIENT_MAGICAL_WOOD_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.DARK_MAGICAL_WOOD, RecipeCategory.DECORATIONS,
+                ModBlocks.DARK_MAGICAL_WOOD_BLOCK);
+
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_AMETHYST)
                 .pattern("SSS")
@@ -47,5 +69,6 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(ModItems.AMETHYST),
                         FabricRecipeProvider.conditionsFromItem(ModItems.AMETHYST))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.RAW_AMETHYST)));
+
     }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "dark_magic",
+  "ingredient": {
+    "item": "themagicalmod:dark_magical_wood_log"
+  },
+  "result": "minecraft:spider_spawn_egg"
+}

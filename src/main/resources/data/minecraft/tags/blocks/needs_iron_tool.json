@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "themagicalmod:amethyst_ore",
-    "themagicalmod:magical_wood_block"
+    "themagicalmod:amethyst_ore"
   ]
 }

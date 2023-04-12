@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "dark_magic",
+  "ingredient": {
+    "item": "themagicalmod:dark_magical_wood_log"
+  },
+  "result": "minecraft:fermented_spider_eye"
+}

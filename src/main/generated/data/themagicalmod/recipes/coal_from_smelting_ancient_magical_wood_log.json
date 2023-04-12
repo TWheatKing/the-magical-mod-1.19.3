@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "ancient_magic",
+  "ingredient": {
+    "item": "themagicalmod:ancient_magical_wood_log"
+  },
+  "result": "minecraft:coal"
+}

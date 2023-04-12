@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "themagicalmod:dark_magical_wood_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "themagicalmod:dark_magical_wood"
+  }
+}

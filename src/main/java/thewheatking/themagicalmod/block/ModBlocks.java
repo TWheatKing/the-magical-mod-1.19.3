@@ -20,6 +20,10 @@ import thewheatking.themagicalmod.world.tree.MagicalWoodSaplingGenerator;
 public class ModBlocks {
     public static final Block MAGICAL_WOOD_BLOCK = registerBlock("magical_wood_block",
             new Block(FabricBlockSettings.of(Material.WOOD).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
+    public static final Block ANCIENT_MAGICAL_WOOD_BLOCK = registerBlock("ancient_magical_wood_block",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
+    public static final Block DARK_MAGICAL_WOOD_BLOCK = registerBlock("dark_magical_wood_block",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
 
     public static final Block AMETHYST_ORE = registerBlock("amethyst_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
@@ -40,7 +44,7 @@ public class ModBlocks {
     public static final Block MAGICAL_WOOD_PLANKS = registerBlock("magical_wood_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
     public static final Block MAGICAL_WOOD_LEAVES = registerBlock("magical_wood_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(1.0f)), ModItemGroup.THEMAGICALMOD);
 
     public static final Block MAGICAL_WOOD_SAPLING = registerBlock("magical_wood_sapling",
             new SaplingBlock(new MagicalWoodSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
@@ -57,7 +61,7 @@ public class ModBlocks {
     public static final Block ANCIENT_MAGICAL_WOOD_PLANKS = registerBlock("ancient_magical_wood_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
     public static final Block ANCIENT_MAGICAL_WOOD_LEAVES = registerBlock("ancient_magical_wood_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(1.0f)), ModItemGroup.THEMAGICALMOD);
 
     public static final Block ANCIENT_MAGICAL_WOOD_SAPLING = registerBlock("ancient_magical_wood_sapling",
             new SaplingBlock(new AncientMagicalWoodSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
@@ -74,7 +78,7 @@ public class ModBlocks {
     public static final Block DARK_MAGICAL_WOOD_PLANKS = registerBlock("dark_magical_wood_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
     public static final Block DARK_MAGICAL_WOOD_LEAVES = registerBlock("dark_magical_wood_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(1.0f)), ModItemGroup.THEMAGICALMOD);
 
     public static final Block DARK_MAGICAL_WOOD_SAPLING = registerBlock("dark_magical_wood_sapling",
             new SaplingBlock(new DarkMagicalWoodSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()), ModItemGroup.THEMAGICALMOD);
