@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "themagicalmod:raw_amethyst"
-  }
+  },
+  "show_notification": true
 }

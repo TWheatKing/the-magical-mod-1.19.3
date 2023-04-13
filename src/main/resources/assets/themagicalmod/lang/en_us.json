@@ -4,6 +4,7 @@
   "item.themagicalmod.magical_wood": "Magical Wood Fragment",
   "item.themagicalmod.amethyst": "Amethyst",
   "item.themagicalmod.raw_amethyst": "Raw Amethyst",
+  "item.themagicalmod.wizard_spawn_egg": "Wizard Spawn Egg",
 
   "block.themagicalmod.magical_wood_block": "Magical Fragment Block",
   "block.themagicalmod.ancient_magical_wood_block": "Ancient Magical Fragment Block",
@@ -34,6 +35,8 @@
   "block.themagicalmod.dark_magical_wood_wood": "Dark Magical Wood",
   "block.themagicalmod.stripped_dark_magical_wood_log": "Stripped Dark Magical Wood Log",
   "block.themagicalmod.stripped_dark_magical_wood_wood": "Stripped Dark Magical Wood",
+
+  "entity.themagicalmod.wizard": "Wizard",
 
   "itemgroup.themagicalmod": "The Magical Mod"
 

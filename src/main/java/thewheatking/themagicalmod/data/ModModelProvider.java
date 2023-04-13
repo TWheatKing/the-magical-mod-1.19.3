@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.ModelIds;
 import net.minecraft.data.client.Models;
 import thewheatking.themagicalmod.block.ModBlocks;
 import thewheatking.themagicalmod.item.ModItems;
@@ -44,6 +45,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_MAGICAL_WOOD_LEAVES);
 
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.DARK_MAGICAL_WOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerParentedItemModel(ModItems.WIZARD_SPAWN_EGG, ModelIds.getMinecraftNamespacedItem("template_spawn_egg"));
     }
 
     @Override

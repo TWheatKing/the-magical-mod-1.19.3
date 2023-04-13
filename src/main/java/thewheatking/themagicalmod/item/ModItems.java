@@ -6,10 +6,12 @@ import net.fabricmc.fabric.impl.itemgroup.ItemGroupEventsImpl;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.SpawnEggItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import thewheatking.themagicalmod.TheMagicalMod;
+import thewheatking.themagicalmod.entity.ModEntities;
 
 public class ModItems {
     public static final Item MAGICAL_WOOD = registerItem("magical_wood",
@@ -22,6 +24,9 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item RAW_AMETHYST = registerItem("raw_amethyst",
             new Item(new FabricItemSettings()));
+    public static final Item WIZARD_SPAWN_EGG = registerItem("wizard_spawn_egg",
+            new SpawnEggItem(ModEntities.WIZARD,0x080808, 0x372721,
+        new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(TheMagicalMod.MOD_ID, name), item);
@@ -39,6 +44,8 @@ public class ModItems {
         addToItemGroup(ModItemGroup.THEMAGICALMOD, DARK_MAGICAL_WOOD);
         addToItemGroup(ModItemGroup.THEMAGICALMOD, AMETHYST);
         addToItemGroup(ModItemGroup.THEMAGICALMOD, RAW_AMETHYST);
+
+        addToItemGroup(ModItemGroup.THEMAGICALMOD, WIZARD_SPAWN_EGG);
 
     }
 

@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "themagicalmod:ancient_magical_wood_block"
-  }
+  },
+  "show_notification": true
 }
