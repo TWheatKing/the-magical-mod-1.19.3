@@ -12,6 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import thewheatking.themagicalmod.TheMagicalMod;
 import thewheatking.themagicalmod.entity.ModEntities;
+import thewheatking.themagicalmod.item.custom.AnimatedItem;
 
 public class ModItems {
     public static final Item MAGICAL_WOOD = registerItem("magical_wood",
@@ -27,6 +28,9 @@ public class ModItems {
     public static final Item WIZARD_SPAWN_EGG = registerItem("wizard_spawn_egg",
             new SpawnEggItem(ModEntities.WIZARD,0x080808, 0x372721,
         new FabricItemSettings()));
+
+    public static final Item DARK_SPELLSTAFF = registerItem("dark_spellstaff",
+            new AnimatedItem(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(TheMagicalMod.MOD_ID, name), item);
@@ -46,6 +50,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.THEMAGICALMOD, RAW_AMETHYST);
 
         addToItemGroup(ModItemGroup.THEMAGICALMOD, WIZARD_SPAWN_EGG);
+        addToItemGroup(ModItemGroup.THEMAGICALMOD, DARK_SPELLSTAFF);
 
     }
 
